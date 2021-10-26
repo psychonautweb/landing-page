@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 5px;
+    background-color: rgba(207, 204, 204, 0.575);
+}
+
+header {
+    background-color: #1F2937;
+    padding: 15px 15px 15px 95px;
+    display: flex;
+    flex-flow: column;
+}
+
+.header-links a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    text-decoration-style: none;
+    margin: 0 10px;
+}
+
+.intro-text h2 {
+    color: honeydew;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.intro-text p {
+    color: honeydew; 
+}
+
+.header-upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.header-lower {
+    display: flex;
+}
