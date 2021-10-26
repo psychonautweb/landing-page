@@ -26,7 +26,10 @@ header {
 }
 
 .intro-text p {
-    color: honeydew; 
+    color: honeydew;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
 }
 
 .header-upper {
@@ -38,4 +41,12 @@ header {
 
 .header-lower {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-image img {
+    max-height: 220px;
+    display:flex;
+    
 }
