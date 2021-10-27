@@ -6,7 +6,7 @@ body {
 }
 
  .wrapper {
-     margin: 100px 5px;
+     margin:0;
      background-color: white;
     
 } 
@@ -16,7 +16,7 @@ body {
 
 header {
     background-color: #1F2937;
-    padding: 15px 15px 15px 0px;
+    padding: 15px 15px 15px 50px;
     display: flex;
     flex-flow: column wrap;
 }
@@ -29,24 +29,41 @@ header {
     margin: 0 10px;
 }
 
+.header-links {
+    display: flex;
+    flex-flow: row wrap;
+}
+
 .intro-text h2 {
     color: honeydew;
     font-size: 48px;
     font-weight: bold;
+    margin-bottom: 1px;
+    margin-top: 1px;
 }
 
 .intro-text p {
     color: honeydew;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 450px;
+    max-width: 70vw;
+    margin-top: 1px;
+    margin-bottom: 4px;
 }
 
 .header-upper {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+}
 
+.header-upper img {
+    width: 70px;
+    border: 1px solid honeydew;
+    border-radius: 8px;
+    margin: 10px;
 }
 
 .header-lower {
@@ -60,25 +77,54 @@ header {
     flex-flow: row wrap;
     width: 250px;
     border: 1px solid rgb(253, 254, 255);
+    
+}
+
+.header-lower button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 10px;
+    padding: 2px 12px;
 }
 
 .mini-gallery {
     padding: 15px 10px;
 }
 
-.figures-container {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-evenly;
+.mini-gallery h2 {
+    text-align: center;
+}
 }
 
-/* .mini-gallery #figure {
+.figures-container {
     display: flex;
-} */
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-grow: 0;   
+    flex-basis: 0; 
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* this bellow makes all boxes same size, maybe */
+    flex-grow: 1;   
+    flex-basis: 0; 
+}
+
+.box-container p {
+    text-align: center;
+    max-width: 166px;
+}
 
 .mini-gallery img {
     border-radius: 9px;
     border: solid rgb(26, 26, 116);
+    max-width: 160px;
+    max-height: 160px;
 }
 
 .quote-container {
@@ -114,8 +160,16 @@ footer {
     color: honeydew;
     padding: 15px;
     display:flex;
+    flex-flow: wrap column;
     justify-content: center;
     align-items: center;
+
+}
+
+.credits a {
+text-decoration: none;
+text-decoration-style: none;
+color: #E5E7EB;
 }
 
 
@@ -124,9 +178,15 @@ footer {
 
 
 
-/* @media screen and (max-width:600px) {
+/* @media screen and (max-width:411px) {
     .mini-gallery {
         display: flex;
         flex-flow: wrap column;
     }
-} */
+
+    .header-links a {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+}  */
