@@ -24,6 +24,7 @@ header {
 .header-links {
     display: flex;
     flex-flow: row wrap;
+    margin-top: 5px;
 }
 
 .header-links a {
@@ -76,7 +77,7 @@ header {
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 55px;
+    gap: 5vw;
 }
 
 .header-image img {
