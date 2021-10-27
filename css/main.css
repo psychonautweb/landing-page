@@ -16,9 +16,14 @@ body {
 
 header {
     background-color: #1F2937;
-    padding: 15px 15px 15px 50px;
+    padding: 15px 50px 15px 50px;
     display: flex;
     flex-flow: column wrap;
+}
+
+.header-links {
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .header-links a {
@@ -29,10 +34,10 @@ header {
     margin: 0 10px;
 }
 
-.header-links {
-    display: flex;
-    flex-flow: row wrap;
+.header-links a:hover {
+    filter:sepia(90)
 }
+
 
 .intro-text h2 {
     color: honeydew;
@@ -69,7 +74,9 @@ header {
 .header-lower {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 55px;
 }
 
 .header-image img {
@@ -77,6 +84,7 @@ header {
     flex-flow: row wrap;
     width: 250px;
     border: 1px solid rgb(253, 254, 255);
+    border-radius: 8px;
     
 }
 
@@ -153,6 +161,7 @@ header {
     border-radius: 6px;
     color: #E5E7EB;
     margin-left: 8px;
+    font-size: 16px;
 }
 
 footer {
@@ -166,10 +175,15 @@ footer {
 
 }
 
-.credits a {
-text-decoration: none;
-text-decoration-style: none;
-color: #E5E7EB;
+.credits a, .credits p {
+    font-size: small;
+    text-decoration: none;
+    text-decoration-style:none;
+    color: #E5E7EB;
+}
+
+button:hover {
+    filter:invert()
 }
 
 
@@ -182,11 +196,6 @@ color: #E5E7EB;
     .mini-gallery {
         display: flex;
         flex-flow: wrap column;
-    }
-
-    .header-links a {
-        display: flex;
-        flex-flow: column wrap;
     }
 
 }  */
