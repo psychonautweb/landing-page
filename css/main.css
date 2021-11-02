@@ -16,7 +16,7 @@ body {
 
 header {
     background-color: #1F2937;
-    padding: 15px 50px 15px 50px;
+    padding: 15px 130px 80px 150px;
     display: flex;
     flex-flow: column wrap;
 }
