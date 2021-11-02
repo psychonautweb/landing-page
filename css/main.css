@@ -92,6 +92,7 @@ header {
 .header-lower button {
     background-color: #3882f6;
     color: #E5E7EB;
+    font-size: larger;
     border-radius: 6px;
     border: none;
     margin-bottom: 10px;
@@ -121,6 +122,8 @@ header {
     /* this bellow makes all boxes same size, maybe */
     flex-grow: 1;   
     flex-basis: 0; 
+    margin: 0px 150px;
+
 }
 
 .box-container p {
@@ -137,7 +140,7 @@ header {
 
 .quote-container {
     background-color: #E5E7EB;
-    padding: 25px;
+    padding: 25px 150px;
     font-size: 24px;
 }
 
@@ -161,7 +164,7 @@ header {
     border-radius: 6px;
     color: #E5E7EB;
     margin-left: 8px;
-    font-size: 16px;
+    font-size: larger;
 }
 
 footer {
