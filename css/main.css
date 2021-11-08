@@ -84,6 +84,8 @@ header {
     display: flex;
     flex-flow: row wrap;
     width: 250px;
+    max-width: 60vw;
+
     border: 1px solid rgb(253, 254, 255);
     border-radius: 8px;
     
