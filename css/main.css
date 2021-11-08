@@ -194,11 +194,16 @@ button:hover {
 
 
 
+@media screen and (max-width:499px) {
+    
+    header {
+        padding: 10px 80px;
 
-/* @media screen and (max-width:411px) {
-    .mini-gallery {
-        display: flex;
-        flex-flow: wrap column;
     }
 
-}  */
+    .quote-container {
+        padding: 25px 90px;
+        font-size: 18px;
+    }
+
+}  
